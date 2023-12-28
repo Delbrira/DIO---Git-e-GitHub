@@ -1,0 +1,41 @@
+Comandos 
+
+git config - Mostra as configurações do git
+
+ctrl + L - Limpa a janela do git
+
+git config --global user.name "Seu nome"
+
+git config --global user.email "Seu email"
+
+git config init.defaultBranch - Vai retornar a branch que ta usando
+
+git config config --global init.defaultBranch main -Mudando a branch antiga para a main
+
+git clone URL --branch nomedabranch(main ou master) --single-branch
+
+git clone https:linkdorepositorio
+
+cd caminho/da/pasta
+
+git restore nomedapasta - Se você alterou o conteudo de uma pasta ou arquivo por erro e quer restaurar para a antes desse "erro"
+
+rm -rf .git - Pra retirar o versionamento do git em uma pasta/ ou só apagar a manualmente a pasta .git
+
+git  checkout -b nomedabranch - Para criar e alterar para branch
+
+git branch - Vai mostrar as branches existentes
+
+git branch -d nomedabranch - Exclui a branch
+
+git init - iniciar um versionamento
+
+git status - Vai mostrar o status daquele init
+
+git add . ou git add nomedaopastaaseradicionada
+
+git commit -m "titulo do commit"
+
+git log - Vai mostrar os comites feitos e detalhes
+
+git push URL
